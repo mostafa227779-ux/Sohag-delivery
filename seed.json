@@ -1,0 +1,53 @@
+{
+  "categories": [
+    { "id": "cat-supermarket", "name": "سوبر ماركت", "icon": "shopping-cart" },
+    { "id": "cat-veg", "name": "خضار وفاكهة", "icon": "carrot" },
+    { "id": "cat-pharmacy", "name": "صيدليات", "icon": "pill" }
+  ],
+  "stores": [
+    {
+      "id": "store-1",
+      "name": "سوبر ماركت النور",
+      "categoryId": "cat-supermarket",
+      "rating": 4.7,
+      "deliveryTimeMin": 15,
+      "deliveryTimeMax": 25,
+      "address": "شارع الجامعة، سوهاج"
+    },
+    {
+      "id": "store-2",
+      "name": "خضار وفاكهة أبو علي",
+      "categoryId": "cat-veg",
+      "rating": 4.5,
+      "deliveryTimeMin": 10,
+      "deliveryTimeMax": 20,
+      "address": "شارع النيل، سوهاج"
+    },
+    {
+      "id": "store-3",
+      "name": "صيدلية الشفاء",
+      "categoryId": "cat-pharmacy",
+      "rating": 4.8,
+      "deliveryTimeMin": 10,
+      "deliveryTimeMax": 20,
+      "address": "ميدان المحطة، سوهاج"
+    }
+  ],
+  "products": [
+    { "id": "p-1", "storeId": "store-1", "name": "لبن جهينة كامل الدسم", "unit": "1 لتر", "price": 32, "icon": "milk" },
+    { "id": "p-2", "storeId": "store-1", "name": "زيت عافية", "unit": "1.5 لتر", "price": 115, "icon": "bottle" },
+    { "id": "p-3", "storeId": "store-1", "name": "عيش فينو", "unit": "5 حبات", "price": 15, "icon": "bread" },
+    { "id": "p-4", "storeId": "store-1", "name": "بيض بلدي", "unit": "طبق 30 بيضة", "price": 95, "icon": "egg" },
+    { "id": "p-5", "storeId": "store-1", "name": "أرز مصري", "unit": "1 كيلو", "price": 28, "icon": "bowl" },
+    { "id": "p-6", "storeId": "store-1", "name": "سكر", "unit": "1 كيلو", "price": 30, "icon": "cube" },
+
+    { "id": "p-7", "storeId": "store-2", "name": "طماطم", "unit": "1 كيلو", "price": 18, "icon": "carrot" },
+    { "id": "p-8", "storeId": "store-2", "name": "بطاطس", "unit": "1 كيلو", "price": 15, "icon": "carrot" },
+    { "id": "p-9", "storeId": "store-2", "name": "موز", "unit": "1 كيلو", "price": 35, "icon": "apple" },
+    { "id": "p-10", "storeId": "store-2", "name": "برتقال", "unit": "1 كيلو", "price": 20, "icon": "apple" },
+
+    { "id": "p-11", "storeId": "store-3", "name": "باراسيتامول", "unit": "شريط 20 قرص", "price": 12, "icon": "pill" },
+    { "id": "p-12", "storeId": "store-3", "name": "فيتامين سي", "unit": "علبة 30 قرص", "price": 45, "icon": "pill" },
+    { "id": "p-13", "storeId": "store-3", "name": "كمامات طبية", "unit": "علبة 50 قطعة", "price": 60, "icon": "mask" }
+  ]
+}
